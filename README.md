@@ -1,4 +1,4 @@
-# SRXDCurrentSongInfoMod
+# SRXD Current Song Info Mod
 When a song is selected in Spin Rhythm XD, this mod writes the song information to a JSON file. The write destination is **`CurrentSongInfo.json`** in the directory where Spin Rhythm XD (.exe) exists.
 
 If you monitor the file with watchdog, etc., you can get information on the song currently being played. Might be useful for something...
