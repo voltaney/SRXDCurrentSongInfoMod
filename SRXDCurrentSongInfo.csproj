@@ -5,7 +5,7 @@
     <AssemblyName>vol.voltaney.SRXDCurrentSongInfo</AssemblyName>
     <Product>SRXDCurrentSongInfo</Product>
     <Description>When a user selects a song, the information about the song will be exported.</Description>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
