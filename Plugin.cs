@@ -26,7 +26,6 @@ namespace SRXDCurrentSongInfo
         [HarmonyPrefix]
         private static void Play_Prefix(XDSelectionListItemDisplay_Track __instance)
         {
-            ITrackItem trackItem = __instance.Item.item as ITrackItem;
             var metadata = __instance.Item.GetMetadata();
             var track_info_metadata = __instance.Item.GetMetadata().TrackInfoMetadata;
             var track_data_metadata = __instance.Item.GetTrackDataMetadata();
@@ -38,7 +37,7 @@ namespace SRXDCurrentSongInfo
                 { "artist", track_info_metadata.artistName },
                 { "charter", track_info_metadata.charter },
                 { "is_custom", metadata.IsCustom },
-                { "difficulty_type", track_data_metadata.DifficultyType },
+                { "difficulty_type", track_data_metadata.DifficultyType.ToString() },
                 { "difficulty_rate", track_data_metadata.DifficultyRating },
                 { "lowest_bpm", track_data_metadata.LowestBpm },
                 { "highest_bpm", track_data_metadata.HighestBpm },
