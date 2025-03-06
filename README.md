@@ -28,5 +28,5 @@ Please refer to [this repository](https://github.com/SRXDModdingGroup/SpinSearch
 
 ## Installation
 
-1. Download `vol.voltaney.SRXDCurrentSongInfo.dll` from the [latest release](https://github.com/voltaney/SRXDCurrentSongInfoMod/releases/latest)
-2. Place the `vol.voltaney.SRXDCurrentSongInfo.dll` file in the `Spin Rhythm/BepInEx/plugins` directory
+1. Download `SRXDCurrentSongInfo.zip` from the [latest release](https://github.com/voltaney/SRXDCurrentSongInfoMod/releases/latest)
+2. Extract the zip file in the `Spin Rhythm/BepInEx/plugins` directory
